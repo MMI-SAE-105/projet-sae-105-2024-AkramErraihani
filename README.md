@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : ERRAIHANI CHOUGAG 
+- PRÉNOM :AKRAM
+- GROUPE :A1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA :https://www.figma.com/design/jve4eOPiHgEeGDTQVwFZ5k/Untitled?node-id=0-1&t=fNivL36mAYrIsMe0-1

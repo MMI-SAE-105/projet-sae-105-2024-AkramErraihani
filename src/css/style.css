@@ -1,0 +1,183 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 10;
+}
+
+.icon {
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    height: auto;
+}
+
+/* SECTION HERO */
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.highlight {
+    color: red;
+}
+
+.content p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* SECTION WAVE ET LOGO */
+.shapes-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.shape {
+    width: 100%;
+    display: block;
+}
+
+.black-shape {
+    margin-bottom: -50px; /* Ajustement de l'espacement */
+}
+
+.gray-shape {
+    margin-top: -20px;
+}
+
+.site-logo {
+    width: 150px;
+    margin: -30px auto 0;
+}
+
+/* SECTION CONTENU ADDITIONNEL */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.info-box {
+    background-color: #e60000; /* Rouge vif */
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.info-button {
+    background-color: #a6e7e1; /* Bleu clair */
+    border-radius: 20px;
+    border: none;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.info-button:hover {
+    background-color: #87d2cb;
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    background-color: #000; /* Fond noir */
+    color: #fff;
+    padding: 60px 20px; /* Footer plus grand */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Navigation avec texte aligné à gauche */
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Texte aligné à gauche */
+    margin-left: 20px; /* Décalage à gauche */
+    width: 100%; /* Prend toute la largeur */
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 15px; /* Espacement vertical */
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Icônes centrées */
+.footer-icons {
+    display: flex;
+    justify-content: center; /* Icônes centrées */
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.footer-icons a img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1); /* Rend les icônes blanches */
+    transition: transform 0.3s ease;
+}
+
+.footer-icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* Texte additionnel */
+.footer-text {
+    margin-top: 20px; /* Espacement supplémentaire */
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-credits {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
