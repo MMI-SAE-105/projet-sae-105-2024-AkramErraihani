@@ -1,0 +1,69 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffdd00;  /* Gold accent color */
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ffdd00;  /* Gold accent color */
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Styling for mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}

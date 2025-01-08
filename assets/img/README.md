@@ -15,3 +15,9 @@ Placez vos images dans ce dossier.
 ![alt text](facebook.png)
 ![alt text](twitter.png)
 ![alt text](youtube.png)
+
+![alt text](shaperouge.png)
+
+![alt text](film.png)
+![alt text](bandefilm.png)
+![alt text](flecheicone.png)
